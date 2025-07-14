@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulinho</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <style>
+        .shiny-text{
+            font-family: "Montserrat", sans-serif;
+            font-size: 50px;
+            color: white;
+            margin-top: 400px;
+        }
+        body {
+	        background: linear-gradient(-45deg, rgb(107, 39, 109), rgb(0, 0, 0));
+	        background-size: 400% 400%;
+	        animation: gradient 15s ease infinite;
+	        height: 100vh;
+        }
+
+        @keyframes gradient {
+	    0% {
+		    background-position: 0% 50%;
+	    }
+	    50% {
+		    background-position: 100% 50%;
+	    }
+	    100% {
+		    background-position: 0% 50%;
+	    }
+}
+
+.shiny-text {
+  color: #b5b5b5a4; /* Adjust this color to change intensity/style */
+  padding-bottom: 500px;
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(
+    120deg,
+    rgb(255, 255, 255) 40%,
+    rgb(0, 0, 0) 50%,
+    rgb(246, 244, 244) 60%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block;
+  animation: shine 5s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: -100%;
+  }
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.shiny-text.disabled {
+  animation: none;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 450px;
+    height: 600px;
+}
+
+p{
+    margin-top: -200px;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    width: 300px;
+    margin-bottom: 150px;
+}
+
+@media (min-width: 320px) and (max-width: 1024px){
+    .shiny-text{
+        margin-top: 350px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+    .shiny-text{
+        margin-left: 4.45vh;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    p{
+        margin-left: 4vh;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px){
+    .shiny-text{
+        margin-left: 6.5vh;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }   
+
+    p{
+        margin-left: 7vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 2560px){
+    .container{
+        margin-left: 3.5vh;
+    }
+
+}
+
+@media (max-width: 320px){
+    .shiny-text{
+        margin-left: 10vh;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    p{
+        margin-left: 10vh;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="shiny-text">Parabéns, Paulo Relíco 90.</div>
+       <div class="picture">
+            <a href="https://prnt.sc/MyTcxVJdCBLg"><img src="./images/png.png"></a>
+            <p>Oztkhmgm, droodn pdf uóbd drsdsz zoudoudshzmcf z uhcz zn lzwhln. Cdrdín stcn cd anl ozqz unbd d rnt lntsn fqzsn oq rdq rdt ldjhnq zlhfn. Lthsn nqfhzczz oq stcn, Yé.</p>
+       </div>
+    </div>
+</body>
+</html>
